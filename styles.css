@@ -1,3 +1,14 @@
+/*V--Index.html--V*/
+
 body h1 {
-	color: green
+	font-family: courier, sans-serif;
+	color: #7FFF00;
+}
+
+body {
+	    background-image: url("./SuperCoinOp_Pics/bubbles.jpg");
+}
+
+#mailing {
+	text-align: center;
 }
