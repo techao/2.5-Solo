@@ -6,14 +6,20 @@ body h1 {
 }
 
 body {
-	    background-image: url("./SuperCoinOp_Pics/bubbles.jpg");
+    background-image: url("./SuperCoinOp_Pics/bubbles.jpg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	    
 }
 
 #mailing {
 	text-align: center;
 }
 
-#image {
+.image {
+	margin: auto;
+	display: block;
 	text-align: center;
 }
 
