@@ -1,16 +1,33 @@
-/*V--Index.html--V*/
 
-body h1 {
-	font-family: courier, sans-serif;
-	color: #7FFF00;
-}
+
+/*V--Index.html--V*/
 
 body {
     background-image: url("./SuperCoinOp_Pics/bubbles.jpg");
     background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	    
+}
+/*#class-container {
+}
+*/
+
+body h1 {
+	font-family: courier, sans-serif;
+	color: #7FFF00;
+	text-align: center;
+}
+body h2 {
+	text-align: center;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul {
+	text-align: center;
 }
 
 #mailing {
@@ -21,8 +38,21 @@ body {
 	margin: auto;
 	display: block;
 	text-align: center;
+}	
+
+.example-page {  
+	text-align: center; /*centers the text*/
 }
 
-#example-page {
-	text-align: center;
+/*V--Info.html page i.e Hours and Location--V*/
+
+#info {
+	display: block;
+	font: bold 30px Georgia, sans-serif;
 }
+
+/*V--FAQ---V*/
+.services {
+	display: inline-block;
+}
+
