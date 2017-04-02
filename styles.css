@@ -8,6 +8,12 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.footer {
+	text-align: center;
+	font-size: 30px;
+}
+
 /*#class-container {
 }
 */
@@ -58,11 +64,19 @@ di
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    font-size: 40px;
-    font-style: arial, sans-serif;
+    font: bold 40px arial, sans-serif;
+    }
+
+#address {
+	font: bold 30px arial, sans-serif;
+	text-align: center;
+	border: 10px solid #7FFF00;
+	border-radius: 25px;
+	line-height: 1.5;
+	vertical-align: middle;
+	color: #ff4dff;
 }
-   
-}
+
 
 
 /*V--FAQ---V*/
