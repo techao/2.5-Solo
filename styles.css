@@ -44,15 +44,32 @@ nav ul {
 	text-align: center; /*centers the text*/
 }
 
-/*V--Info.html page i.e Hours and Location--V*/
+/*V--Info.html page i.e Hours and Location--V*
+di
+*/
 
-#info {
-	display: block;
-	font: bold 12px/30px Georgia, sans-serif;
+#hours {
+	text-align: center;
+    border: 10px solid #7FFF00;
+    border-radius: 25px;
+    line-height: 1.5;
+    vertical-align: middle;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: 40px;
+    font-style: arial, sans-serif;
 }
+   
+}
+
 
 /*V--FAQ---V*/
 .services {
 	display: inline-block;
 }
+
+
+
 
