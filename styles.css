@@ -9,7 +9,7 @@ body {
 	background-size: cover;
 }
 
-.footer {
+.home {
 	text-align: center;
 	font-size: 30px;
 }
@@ -76,8 +76,6 @@ di
 	vertical-align: middle;
 	color: #ff4dff;
 }
-
-
 
 /*V--FAQ---V*/
 .services {
