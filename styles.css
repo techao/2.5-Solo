@@ -2,6 +2,7 @@
 
 /*V--Index.html--V*/
 
+
 body {
     background-image: url("./SuperCoinOp_Pics/bubbles.jpg");
     background-position: center;
@@ -9,20 +10,20 @@ body {
 	background-size: cover;
 }
 
-.home {
+.container{
+	margin: 10px 25px 10px 25px;
+	display: inline-block;
+	font: italic 20px arial, sans-serif;
 	text-align: center;
-	font-size: 30px;
 }
 
-/*#class-container {
-}
-*/
 
 body h1 {
 	font-family: courier, sans-serif;
 	color: #7FFF00;
 	text-align: center;
 }
+
 body h2 {
 	text-align: center;
 }
@@ -34,11 +35,14 @@ nav ul li {
 
 nav ul {
 	text-align: center;
+	color: magenta;
+	font-size: 40px;
+	border-bottom: 10px double #00FFFF;  
+	border-top: 10px double #00FFFF;
+	margin-left:35px;
+	margin-right:35px; 
 }
 
-#mailing {
-	text-align: center;
-}
 
 .image {
 	margin: auto;
@@ -50,11 +54,11 @@ nav ul {
 	text-align: center; /*centers the text*/
 }
 
-/*V--Info.html page i.e Hours and Location--V*
-di
-*/
+--------------------------------
+/*Info Page*/
 
 #hours {
+	font: bold 40px arial, sans-serif;
 	text-align: center;
     border: 10px solid #7FFF00;
     border-radius: 25px;
@@ -64,8 +68,7 @@ di
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    font: bold 40px arial, sans-serif;
-    }
+}
 
 #address {
 	font: bold 30px arial, sans-serif;
@@ -76,21 +79,25 @@ di
 	vertical-align: middle;
 	color: #ff4dff;
 }
+------------------------------
+/*FAQ Page*/
+#service_head {
+	text-align: right;
+}
 
-/*V--FAQ---V*/
-.service{
+.service {
 	text-align: right;
 	list-style: none;
 }
-#services {
-	text-align: right;
+
+
+
+#faq_content {
+	text-align: left;
 }
 
-.container {
-	display: inline-block;
-	font: italic 20px arial, sans-serif;
+.home_link {
+	text-align: center;
+	font-size: 30px;
 }
-
-
-
 
